@@ -1,0 +1,6 @@
+{
+  "name": "matgargano/acf-medium-editor-field",
+  "description": "WordPress plugin `acf-medium-editor-field`",
+  "type": "wordpress-plugin",
+  "license": "GPLv3"
+}
