@@ -1,15 +1,14 @@
 <?php
+/*
+Plugin Name: ACF Medium Editor Field
+Plugin URI: https://wordpress.org/plugins/acf-medium-editor-field/
+Description: Medium Editor Field for ACF 5
+Version: 3.0.3
+Author: John A. Huebner II
+Text Domain: acf-medium-editor
+Author URI: https://github.com/Hube2
 
-	/*
-		Plugin Name: ACF Medium Editor Field
-		Plugin URI: https://wordpress.org/plugins/acf-medium-editor-field/
-		Description: Medium Editor Field for ACF 5
-		Version: 3.0.2
-		Author: John A. Huebner II
-		Text Domain: acf-medium-editor
-		Author URI: https://github.com/Hube2
-		
-	*/
+*/
 	
 	// exit if accessed directly
 	if (!defined('ABSPATH')) {
