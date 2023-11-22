@@ -3,7 +3,7 @@ Contributors: Hube2
 Tags: acf, add on, inline wysywig, medium editor, configurable
 Requires at least: 4.0.0
 Tested up to: 6.0
-Stable tag: 3.0.0
+Stable tag: 3.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -213,6 +213,9 @@ add_filter('acf/medium-editor-field/buttons', 'my_buttons', 10, 2);
 
 
 == Changelog ==
+
+== 3.0.4 ==
+* fix warning
 
 = 3.0.0 =
 * ACF >= V6, prevent initialization of medium editor scripts on ACF Field Group editor
