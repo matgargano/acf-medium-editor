@@ -3,8 +3,8 @@
 Plugin Name: ACF Medium Editor Field
 Plugin URI: https://wordpress.org/plugins/acf-medium-editor-field/
 Description: Medium Editor Field for ACF 5
-Version: 3.0.4
-Author: John A. Huebner II
+Version: 3.0.5
+Author: John A. Huebner II, Mat Gargano
 Text Domain: acf-medium-editor
 Author URI: https://github.com/Hube2
 

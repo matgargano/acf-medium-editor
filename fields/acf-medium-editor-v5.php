@@ -28,7 +28,10 @@
 						
 			private $doc_link = '';
 			private $button_types = array();
-			
+			private $other_options = array();
+			private $valid_tags = array();
+			private $settings = array();
+
 			function __construct($settings) {
 				
 				$this->name = 'medium_editor';
