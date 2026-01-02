@@ -9,7 +9,7 @@
 	// check if class already exists
 	if (!class_exists('acf_medium_editor_field')) :
 
-
+		#[\AllowDynamicProperties]
 		class acf_medium_editor_field extends acf_field {
 			
 			
@@ -31,6 +31,7 @@
 			private $other_options = array();
 			private $valid_tags = array();
 			private $settings = array();
+			public $l10n = array();
 
 			function __construct($settings) {
 				

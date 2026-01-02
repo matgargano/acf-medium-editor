@@ -3,7 +3,7 @@ Contributors: Hube2
 Tags: acf, add on, inline wysywig, medium editor, configurable
 Requires at least: 4.0.0
 Tested up to: 6.0
-Stable tag: 3.0.5
+Stable tag: 3.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -213,6 +213,11 @@ add_filter('acf/medium-editor-field/buttons', 'my_buttons', 10, 2);
 
 
 == Changelog ==
+
+== 3.0.6 ==
+* Fixed PHP 8.2+ deprecation warnings for dynamic properties
+* Added #[\AllowDynamicProperties] attribute for PHP 8.2+ compatibility
+* Added missing l10n property declaration
 
 == 3.0.5 ==
 * fix warning

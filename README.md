@@ -228,3 +228,10 @@ add the following filter to your functions.php file.
 ```
 add_filter('remove_hube2_nag', '__return_true');
 ```
+
+## Changelog
+
+### 3.0.6
+* Fixed PHP 8.2+ deprecation warnings for dynamic properties
+* Added #[\AllowDynamicProperties] attribute for PHP 8.2+ compatibility
+* Added missing l10n property declaration
